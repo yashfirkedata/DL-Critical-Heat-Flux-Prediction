@@ -8,3 +8,5 @@ The critical heat flux (CHF) corresponding to the departure from nucleate boili
 The reliability and economic competitiveness of a thermal system hinge upon its safety and regulatory measures. During the stage of system design and analysis, researchers and engineers typically leverage extensive experimental efforts and investigate evolutionary models that represent the state-of-the-art understanding in their fields of specialization—also known as *domain knowledge* (DK)—to predict various safety limits.
 
 🧭 **Problem Statement:** The target feature is **chf_exp** which is a continuous variable. The scoring metric is **RMSE**.
+
+Dataset: Data_CHF_Zhao_2020_ATE.csv
