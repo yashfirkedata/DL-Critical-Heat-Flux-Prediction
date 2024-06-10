@@ -20,7 +20,6 @@ Dataset: Data_CHF_Zhao_2020_ATE.csv
 - [Mathematical Expression](#mathematical-expression)
 - [Applications](#applications)
 - [Description about Dataset](#description-about-dataset)
-- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -96,23 +95,7 @@ The dataset for this competition was generated from a deep learning model traine
 - The dataset was generated from a deep learning model trained on the original CHF dataset, and its features are designed to be similar to the original dataset. **The goal of the competition is to develop models that can accurately predict CHF based on the provided features**.
 - By providing this dataset and hosting a competition around it, the aim is to encourage researchers and practitioners to explore new approaches to **predicting CHF**, which could ultimately lead to better understanding and management of thermal systems.
 
-## Examples
-
-### Example 1: Simple Heat Conduction
-
-Given:
-- Thermal conductivity \( k \) = 0.5 W/mK
-- Temperature difference \( \Delta T \) = 100 K
-- Thickness \( d \) = 0.1 m
-
-Calculate the heat flux using:
-
-\[ q = \frac{0.5 \times 100}{0.1} = 500 \text{ W/m²} \]
-
-### Example 2: Complex Heat Transfer
-
-(Provide more detailed examples relevant to your project or field of study)
-
+> More info in data_description.md
 ## Contributing
 
 We welcome contributions to this project. Please fork the repository and create a pull request with your changes. Ensure your code follows our coding standards and includes appropriate documentation.
