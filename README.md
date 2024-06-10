@@ -41,33 +41,37 @@ Heat flux is the rate at which heat energy flows through a given surface or inte
 
 Heat flux (q) can be expressed mathematically using the formula:
 
-\[ q = \frac{dQ}{dtA} \]
+**q = dQ/dtA**
 
 Where:
-- \( q \) = heat flux (W/m²)
-- \( \frac{dQ}{dt} \) = rate of heat transfer (W)
-- \( A \) = area of heat transfer (m²)
+>**q = heat flux (W/m²)**
+
+>**dQ/dt = rate of heat transfer (W)**
+
+>**A = area of heat transfer (m²)**<br>
 
 ### Rate of Heat Transfer
 
 The rate of heat transfer can be calculated using:
 
-\[ \frac{dQ}{dt} = \frac{kA\Delta T}{d} \]
+**dQ/dt = kAΔT/d**
 
 Where:
-- \( k \) = thermal conductivity (W/mK)
-- \( \Delta T \) = temperature difference (K)
-- \( d \) = thickness of material (m)
+>**k = thermal conductivity (W/mK)**
+
+>**ΔT = temperature difference (K)**
+
+>**d = thickness of material (m)**
 
 ### Simplified Formula
 
 Combining these two formulas, we get:
 
-\[ q = \frac{kA\Delta T}{dA} \]
+><b>q = kAΔT/dA</b>
 
-Which simplifies to:
+which simplifies to:
 
-\[ q = \frac{k\Delta T}{d} \]
+><b>q = kΔT/d</b>
 
 This formula is often used for steady-state heat transfer situations where the temperature and properties of the materials remain constant over time.
 
@@ -116,7 +120,3 @@ We welcome contributions to this project. Please fork the repository and create 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this `README.md` to better fit your project's specifics and add any additional sections that might be relevant.
